@@ -1,0 +1,25 @@
+@keyframes slideInFaded{
+  0% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes skewY{
+  from{
+    transform: skewY(0deg);
+  }
+
+  to {
+    transform: skewY(-2deg);
+  }
+}

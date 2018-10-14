@@ -1,0 +1,42 @@
+@import '../styles/consts.scss';
+
+button, a.button{
+  position: relative;
+  display: inline-block;
+
+  appearance: none;
+  text-decoration: none;
+  cursor: pointer;
+
+  color: white;
+  font-size: 16px;
+  line-height: 38px;
+
+  background: $primary;
+
+  border: 0;
+  padding: 0px 24px;
+  border-radius: 20px;
+  height: 40px;
+
+  transition: box-shadow 300ms;
+
+  &:focus{
+    outline: 0;
+    box-shadow: 0 0 0px 3px lighten($primary, 25%);
+  }
+
+  &:hover{
+    opacity: 0.9;
+  }
+
+  &:active{
+    opacity: 1;
+  }
+
+  &.secondary{
+    background: transparent;
+    border: 1px solid $primary;
+    color: $primary;
+  }
+}
