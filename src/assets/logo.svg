@@ -1,26 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="234 178 190.495 164.973">
-    <defs>
-        <style>.a{fill:url(#a);}.b{fill:url(#b);}.c{fill:url(#c);}</style>
-        <linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#0058ff" />
-            <stop offset="1" stop-color="#004fe6" />
-        </linearGradient>
-        <linearGradient id="b" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#fff" />
-            <stop offset="1" stop-color="#ccc" />
-        </linearGradient>
-        <linearGradient id="c" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#ff0027" />
-            <stop offset="1" stop-color="#800014" />
-        </linearGradient>
-    </defs>
-    <g transform="translate(121.689 86.344)">
-        <path class="a" d="M-43.861,0l-22,38.1-22-38.1H-161.1l95.248,164.973L29.39,0Z" transform="translate(273.416 91.656)" />
-        <g transform="translate(0 14)">
-            <path class="b" d="M0,0-30.225,52.352-60.451,0h-48.3l78.528,136.013L48.3,0Z" transform="translate(237.416 86.656)" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="314.817 423.428 35.155 36.475">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="35.155" height="36.475"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.588" y1="1.018" x2="0.445" y2="-0.09" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#022598"/>
+      <stop offset="1" stop-color="#2f54eb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8099ff"/>
+      <stop offset="1" stop-color="#1a41e0"/>
+    </linearGradient>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-2" transform="translate(314.817 423.428)">
+    <g transform="translate(-338.817 -435.428)">
+      <g id="Symbol_1_1" data-name="Symbol 1 – 1" transform="translate(0.856 0.097)">
+        <g id="Symbol_2_1" data-name="Symbol 2 – 1">
+          <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-3" width="8" height="29" rx="4" transform="translate(337.961 441.98) rotate(-28)"/>
+          <path id="Path_3" data-name="Path 3" class="cls-4" d="M4,0C6.209,0,8,1.515,8,3.384L7.929,28.223c0,1.869.1,4.193-2.14,5.232s-5.217-.988-6.01-1.541L-10.009,25.2a14.843,14.843,0,0,0,4.4,1.784c2.665.736,5.493-.158,5.621-4.6,0-5.922-.013-19-.013-19C0,1.515,1.791,0,4,0Z" transform="translate(366.053 438.35) rotate(28)"/>
         </g>
-        <g transform="translate(10 153)">
-            <path class="c" d="M-6.97,0l-32.9,55.492L-73.3,0h-35.449l68.887,119.314L29.021,0Z" transform="translate(237.416 -45.344)" />
-        </g>
+      </g>
     </g>
+  </g>
 </svg>

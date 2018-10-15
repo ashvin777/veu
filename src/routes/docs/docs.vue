@@ -1,8 +1,6 @@
 <template>
   <div>
-    <markdown v-if="docId === 'getting-started'" :doc="require('./markdown/getting-started.md')">
-      hellow "Hello *World*!"
-    </markdown>
+    <div class="markdown-body" v-html="docs['getting-started']"></div>
   </div>
 </template>
 

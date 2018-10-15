@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="428 178 190.495 165.973">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0c69ff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #f63546;
+      }
+    </style>
+  </defs>
+  <g id="Vue.js_Logo" transform="translate(315.689 87.344)">
+    <g id="g12">
+      <path id="path14" class="cls-1" d="M-43.861,0l-22,38.1-22-38.1H-161.1l95.248,164.973L29.39,0Z" transform="translate(273.416 91.656)"/>
+    </g>
+    <g id="g16" transform="translate(-6 4)">
+      <path id="path18" class="cls-2" d="M9.052,0-23.689,56.709-56.43,0h-52.323l85.064,147.334L61.375,0Z" transform="translate(237.416 86.656)"/>
+    </g>
+    <g id="g16-2" data-name="g16" transform="translate(32.5 181.842)">
+      <path id="path18-2" data-name="path18" class="cls-3" d="M-17.344-25.753-62.869,52.514l-44.573-77.48h-17.7L-62.869,79.472.108-24.965Z" transform="translate(237.416 -55.344)"/>
+    </g>
+  </g>
+</svg>

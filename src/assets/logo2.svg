@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="193 175 190.495 164.973">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0058ff"/>
+      <stop offset="1" stop-color="#004fe6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff0027"/>
+      <stop offset="1" stop-color="#800014"/>
+    </linearGradient>
+  </defs>
+  <g id="Vue.js_Logo" transform="translate(80.689 83.344)">
+    <g id="g12">
+      <path id="path14" class="cls-1" d="M-43.861,0l-22,38.1-22-38.1H-161.1l95.248,164.973L29.39,0Z" transform="translate(273.416 91.656)"/>
+    </g>
+    <g id="g16" transform="translate(0 14)">
+      <path id="path18" class="cls-2" d="M0,0-30.225,52.352-60.451,0h-48.3l78.528,136.013L48.3,0Z" transform="translate(237.416 86.656)"/>
+    </g>
+    <g id="g16-2" data-name="g16" transform="translate(32.5 179.842)">
+      <path id="path18-2" data-name="path18" class="cls-3" d="M-25.14-24.965-62.869,36.962l-36.28-61.927h-26L-62.869,79.472.108-24.965Z" transform="translate(237.416 -45.344)"/>
+    </g>
+  </g>
+</svg>

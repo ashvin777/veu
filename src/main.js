@@ -4,6 +4,7 @@ import App from './index.app.vue';
 import router from './index.router';
 
 //styles
+import 'github-markdown-css';
 import './index.scss';
 
 Vue.config.productionTip = false;
