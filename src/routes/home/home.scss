@@ -3,6 +3,7 @@
 .page-container.page-home {
   position: relative;
   overflow: hidden;
+  min-height: 600px;
 
   &:after {
     position: absolute;
@@ -21,8 +22,7 @@
     margin: auto;
 
     position: relative;
-    top: 45%;
-    // left: 50%;
+    top: 40%;
     transform: translateY(-50%);
     max-width: 800px;
 

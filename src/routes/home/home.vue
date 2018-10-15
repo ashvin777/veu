@@ -1,6 +1,10 @@
 <template>
   <div class="page-container page-home">
 
+    <navbar>
+
+    </navbar>
+
     <div class="intro-container">
       <img class="logo" src="../../assets/logo.svg"/>
       <div class="details">
@@ -19,4 +23,6 @@
 </template>
 
 <style lang="scss" src="./home.scss"></style>
+<script src="./home.js"></script>
+
 
