@@ -11,7 +11,7 @@
     </nav>
 
     <div class="right-panel">
-      <div class="markdown-body">
+      <div class="markdown-body" ref="md">
         <div v-if="docId" v-html="docs[docId].md"></div>
       </div>
     </div>

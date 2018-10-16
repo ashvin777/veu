@@ -20,24 +20,18 @@ export default {
   },
 
   mounted() {
-    hljs.initHighlightingOnLoad();
     this.updateDoc();
   },
 
   methods: {
     updateDoc() {
-      console.log(hljs, hljs.fixMarkup(this.docs['getting-started'].md));
-
-      // hljs.highlightBlock(document.querySelector('.markdown-body'));
-      // // hljs.listLanguages()
-      // hljs.initHighlighting.called = false;
-
-
       if (this.$route.params && this.$route.params.docId) {
         this.docId = this.$route.params.docId;
       }
-
-
+      setTimeout(() => {
+        let code = this.$refs.md.querySelectorAll('code');
+        Array.from(code).forEach(el => hljs.highlightBlock(el))
+      });
     }
   }
 }
