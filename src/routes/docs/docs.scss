@@ -1,0 +1,12 @@
+.page-container.page-docs{
+  display: flex;
+
+  nav{
+    padding: 20px;
+  }
+
+  .right-panel{
+    flex: 1;
+    padding: 20px;
+  }
+}

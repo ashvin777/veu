@@ -1,32 +1,43 @@
-import Vue from 'vue';
-import hljs from 'highlight.js/lib/highlight';
-import javascript from 'highlight.js/lib/languages/javascript';
 import 'highlight.js/styles/atom-one-light.css';
 
-const DOC_REFS = [
-  'getting-started'
-];
+import hljs from 'highlight.js/lib/index';
+
+import docs from './markdown/';
 
 export default {
 
   data() {
     return {
-      docs: {}
+      docs: docs,
+      docId: null
+    }
+  },
+
+  watch: {
+    $route() {
+      this.updateDoc();
     }
   },
 
   mounted() {
-
-    hljs.registerLanguage('javascript', javascript);
     hljs.initHighlightingOnLoad();
+    this.updateDoc();
+  },
 
-    DOC_REFS.forEach(ref => {
-      let doc = require(`html-loader!markdown-loader!./markdown/${ref}.md`);
-      Vue.set(this.docs, ref, doc);
-    });
+  methods: {
+    updateDoc() {
+      console.log(hljs, hljs.fixMarkup(this.docs['getting-started'].md));
 
-    if (this.$route.params && this.$route.params.docId) {
-      this.docId = this.$route.params.docId;
+      // hljs.highlightBlock(document.querySelector('.markdown-body'));
+      // // hljs.listLanguages()
+      // hljs.initHighlighting.called = false;
+
+
+      if (this.$route.params && this.$route.params.docId) {
+        this.docId = this.$route.params.docId;
+      }
+
+
     }
   }
 }
