@@ -11,7 +11,8 @@ export default new Router({
     component: home
   }, {
     path: '/docs',
-    component: docs
+    component: docs,
+    redirect: '/docs/getting-started'
   }, {
     path: '/docs/:docId',
     component: docs

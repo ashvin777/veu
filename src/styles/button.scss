@@ -1,5 +1,7 @@
 @import '../styles/consts.scss';
 
+$button-height: 40px;
+
 button, a.button{
   position: relative;
   display: inline-block;
@@ -19,6 +21,10 @@ button, a.button{
 
   transition: box-shadow 300ms;
 
+  i{
+    padding: 0 10px;
+  }
+
   &:focus{
     outline: 0;
     box-shadow: 0 0 0px 3px lighten($primary, 30%);
@@ -36,5 +42,41 @@ button, a.button{
     background: transparent;
     border: 1px solid $primary;
     color: $primary;
+  }
+
+  &.destructive{
+    background: red;
+  }
+
+  &.plain{
+    background: transparent;
+    color: $primary;
+  }
+}
+
+.button-group{
+  display: flex;
+
+  button, a.button{
+    position: relative;
+    border-radius: 0;
+    border-right: 1px solid rgba(transparent, 0.15);
+
+    &:first-child{
+      border-radius: $button-height 0 0 $button-height;
+    }
+
+    &:last-child{
+      border-radius: 0 $button-height $button-height 0;
+      border-right: 0;
+    }
+
+    &.secondary:first-child{
+      border-right: 0px;
+    }
+
+    &.secondary:last-child{
+      border: 1px solid $primary;
+    }
   }
 }

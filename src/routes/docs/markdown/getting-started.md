@@ -1,5 +1,10 @@
 # Getting started
 
+Get started with Veu, the Vue.js based user interface development framework.
+
+## Installation
 ```javascript
-const test = "fasdfsadsad"
+npm install --save veu@latest
 ```
+
+## CDN

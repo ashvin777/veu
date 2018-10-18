@@ -1,8 +1,7 @@
 import 'highlight.js/styles/atom-one-light.css';
-
 import hljs from 'highlight.js/lib/index';
-
 import docs from './markdown/';
+import navbar from '../../components/navbar/navbar.vue';
 
 export default {
 
@@ -11,6 +10,10 @@ export default {
       docs: docs,
       docId: null
     }
+  },
+
+  components: {
+    navbar
   },
 
   watch: {
