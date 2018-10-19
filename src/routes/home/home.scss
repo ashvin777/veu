@@ -3,7 +3,9 @@
 .page-container.page-home {
   position: relative;
   overflow: hidden;
-  min-height: 600px;
+  // min-height: 600px;
+  display: flex;
+  flex-direction: column;
 
   &:after {
     position: absolute;
@@ -19,7 +21,7 @@
 
   .intro-container {
     display: inline-block;
-    margin: auto;
+    margin: 0 auto;
 
     position: relative;
     top: 40%;

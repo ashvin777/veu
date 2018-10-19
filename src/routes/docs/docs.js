@@ -5,6 +5,8 @@ import navbar from '../../components/navbar/navbar.vue';
 
 export default {
 
+  name: 'docs',
+
   data() {
     return {
       docs: docs,

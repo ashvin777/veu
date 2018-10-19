@@ -1,12 +1,14 @@
 @import '../../styles/consts.scss';
 
 .page-container.page-docs {
+  display: flex;
+  flex-direction: column;
 
   .page-container-inner {
     position: relative;
     display: flex;
     padding-top: 40px;
-    z-index: 50;
+    overflow: auto;
 
     nav {
       width: 300px;
